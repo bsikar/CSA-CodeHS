@@ -1,0 +1,112 @@
+Question: 1
+Evaluate the mathematical expression: 18 ÷ 3 + 3 × 3 – 8
+
+7
+
+Question: 2
+If x represents the area of the number line colored blue, which inequality accurately reflects the value of x?
+
+x ≤ 8
+
+Question: 3
+Melissa will only drink a cup of coffee if she has slept less than 8 hours or she had to wake up before 6 am.
+In which of the following cases does Melissa not drink a cup of coffee?
+
+Melissa sleeps for 8 hours and wakes up at 7 am
+
+Question: 4
+Karel the Dog is instructed to move forward two spaces. Then, if Karel is standing on a ball, Karel will turn left and move forward two spaces. Otherwise, Karel will move forward two spaces. Given the starting point below, where will Karel end up?
+
+`The one with the dog looking north and its feet would be located at x = 3.75`
+
+Question: 5
+In Ms. Garcia’s computer science class, students receive letter grades based on the following scale.
+
+I and III only
+
+Question: 6
+Consider the following program code:
+```
+int x = 5;
+int y = 8;
+int temp = x;
+x = y;
+y = temp;
+```
+What are the values of x and y as a result of this program code?
+
+x has a value of 8
+y has a value of 5
+
+Question: 7
+You’re building an e-commerce website. You create a class called Transaction to represent a single purchase on the site.
+Which of these would not make sense as an instance variable in the Transaction class?
+
+private int totalTransactionsToday
+
+Question: 8
+Which for loop will properly print “good luck” 10 times?
+
+for(int i = 0; i < 10; i++)
+{
+     System.out.println("good luck");
+}
+
+Question: 9
+What are parameters?
+
+The formal names given to the data that gets passed into a method.
+
+Question: 10
+What does this method call return?
+
+This method is improperly written.
+
+Question: 11
+What is the output of the following program?
+
+dog
+
+Question: 12
+Shape shape1 = new Shape();
+Shape shape2 = new Rectangle();
+Shape shape3 = new Square();
+Shape shape4 = new Circle();
+
+System.out.println(shape1.getShapeName());
+System.out.println(shape2.getShapeName());
+System.out.println(shape3.getShapeName());
+System.out.println(shape4.getShapeName());
+
+Shape Rectangle Rectangle Circle
+
+Question: 13
+Which of the following are valid arrays?
+
+I.   int[] coolArray = {1, 2, 3};
+II.  int[] threeThings = {1.0, 2.0, 3.0};
+III. int[] = {"1", "2", "3"};
+
+I only
+
+Question: 14
+What value will be held in mysteryNumber when this code finishes running?
+
+int mysteryNumber = 0;
+String[] mysteryArray = {"Finn", "Jake", "Bubblegum"};
+for(int i = 0; i < mysteryArray.length; i++)
+{
+    mysteryNumber += mysteryArray[i].length();
+}
+
+17
+
+Question: 15
+Given this array:
+
+1 2 4 5 6 7 8 12 14 21 22 42 53
+How many comparisons are required to find 42 using the Binary Search?
+
+3
+
+
