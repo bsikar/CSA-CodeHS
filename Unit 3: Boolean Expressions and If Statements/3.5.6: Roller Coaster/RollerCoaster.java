@@ -39,8 +39,8 @@ public class RollerCoaster
             } else {
                 System.out.println("Sorry, you are not eligible to ride");
             }
-       } else {
-        System.out.println("Sorry, you are not eligible to ride");
-       }
+        } else {
+            System.out.println("Sorry, you are not eligible to ride");
+        }
     }
 }
