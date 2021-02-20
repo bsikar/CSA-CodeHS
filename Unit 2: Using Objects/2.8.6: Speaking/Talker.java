@@ -1,44 +1,50 @@
+/* MIT License
+ *
+ * Copyright (c) 2021 Brighton Sikarskie
+ *  
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
 public class Talker
 {
     private String text;
     
-    // Constructor
     public Talker(String startingText)
     {
         text = startingText;
     }
     
-    // Returns the text in all uppercase letters
-    // Find a method in the JavaDocs that
-    // will allow you to do this with just
-    // one method call
     public String yell()
     {
         return text.toUpperCase();
     }
     
-    // Returns the text in all lowercase letters
-    // Find a method in the JavaDocs that
-    // will allow you to do this with just
-    // one method call
     public String whisper()
     {
         return text.toLowerCase();
     }
     
-    // Reset the instance variable to the new text
     public void setText(String newText)
     {
         text = newText;   
     }
     
-    // Returns a String representatin of this object
-    // The returned String should look like
-    // 
-    // I say, "text"
-    // 
-    // The quotes should appear in the String
-    // text should be the value of the instance variable
     public String toString()
     {
         return "I say, \"" + text + "\"";

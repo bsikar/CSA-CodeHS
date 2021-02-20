@@ -1,15 +1,34 @@
+/* MIT License
+ *
+ * Copyright (c) 2021 Brighton Sikarskie
+ *  
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
 public class FormFill
 {
-    
     private String fName;
     private String lName;
     private int streetNumber;
     private String streetName;
     private String aptNumber;
     
-    // Constructor that sets the first and last name
-    // streetNumber defaults to 0
-    // the others default to an empty String
     public FormFill(String firstName, String lastName)
     {
         fName = firstName;
@@ -19,8 +38,6 @@ public class FormFill
         aptNumber = "";
     }
     
-    // Sets streetNumber, streetName, and aptNumber to the given
-    // values
     public void setAddress(int number, String street, String apt)
     {
         streetNumber = number;
@@ -28,41 +45,18 @@ public class FormFill
         aptNumber = apt;
     }
     
-    // Returns a string with the name formatted like
-    // a doctor would write the name on a file
-    // 
-    // Return string should be formatted 
-    // with the last name, then a comma and space, then the first name.
-    // For example: LastName, FirstName
     public String fullName()
     {
         return lName + ", " + fName;
     }
     
-    // Returns the formatted address
-    // Formatted like this
-    // 
-    // StreetNumber StreetName
-    // Apt AptNumber
-    //
-    // You will need to use the escape character \n
-    // To create a new line in the String
     public String streetAddress()
     {
         return streetNumber + " " + streetName + "\nApt " + aptNumber; 
     }
     
-    // Returns a string with the credit card information
-    // Formatted like this:
-    // 
-    // Card Number: Card#
-    // Expires: expMonth/expYear
-    // 
-    // Take information as parameters so we don't store sensitive information!
-    // You will need to use the escape character \n
     public String creditCardInfo(int creditCardNumber, int expMonth, int expYear)
     {
         return "Card Number: " + creditCardNumber + "\nExpires: " + expMonth + "/" + expYear;
     }
-    
 }

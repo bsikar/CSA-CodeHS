@@ -1,10 +1,32 @@
+/* MIT License
+ *
+ * Copyright (c) 2021 Brighton Sikarskie
+ *  
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
 public class Battleship
 {
-    private String name;  // type of ship
-    private int power;   // power of attack in range [1 - 10]
-    private int health; // health of the ship
+    private String name;
+    private int power;
+    private int health;
     
-    // Constructor
     public Battleship(String shipType, int attackPower)
     {
         name = shipType;
@@ -12,7 +34,6 @@ public class Battleship
         health = 100;
     }
     
-    // Modifies the health of the battleship
     public void isAttacked(int attackPower)
     {
         if (attackPower < 4) {
@@ -22,27 +43,20 @@ public class Battleship
         } else {
             health -= 7;
         }
-
     }
     
-    // Returns true if the health of
-    // the ship is greater than 0
     public boolean stillFloating()
     {
         return health > 0;
     }
     
-    // Returns the power of the ship
     public int getPower()
     {
         return power;
     }
     
-    // Returns string representation in the form
-    // Battleship name
     public String toString()
     {
         return name + "(" + health + ")";    
     }
-    
 }

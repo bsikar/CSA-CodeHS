@@ -1,45 +1,76 @@
-public class Bot {
+/* MIT License
+ *
+ * Copyright (c) 2021 Brighton Sikarskie
+ *  
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
 
+public class Bot 
+{
     private String name;
 
-    public Bot (String yourName){
+    public Bot (String yourName)
+    {
         name = yourName;
     }
 
-    public void greeting(){
+    public void greeting()
+    {
         System.out.print("Hello ");
         System.out.print(name);
         System.out.println("! My name is Hal!");
         System.out.println("How are you today!");
     }
 
-    public void help(){
+    public void help()
+    {
         System.out.println("You can ask me about the weather,");
         System.out.println("or how many feet are in a mile.");
         System.out.println("I can even convert feet to meters!");
     }
 
-    public void weather(){
+    public void weather()
+    {
         System.out.println("Its always warm and dry inside your computer!");
     }
 
-    public void feetInMile() {
+    public void feetInMile() 
+    {
         System.out.println("There are 5280 feet in a mile.");
     }
 
-    public void goodbye(){
+    public void goodbye()
+    {
         System.out.println("It was nice talking with you!");
         System.out.println("Have a great day!");
     }
 
-    public void favoriteNumber(int yourNumber){
+    public void favoriteNumber(int yourNumber)
+    {
         System.out.println("My favorite number is 8.");
         System.out.print("That is ");
         System.out.print(yourNumber - 8);
         System.out.println(" away from your number");
     }
 
-    public double feetToMeters(double feet){
+    public double feetToMeters(double feet)
+    {
         double meters = feet * 0.3048;
         return meters;
     }

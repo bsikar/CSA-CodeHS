@@ -1,3 +1,26 @@
+/* MIT License
+ *
+ * Copyright (c) 2021 Brighton Sikarskie
+ *  
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
 public class Battleship
 {
     private String shipType;
@@ -8,17 +31,9 @@ public class Battleship
         shipType = type;
         position = shipPosition;
     }
-    
-    // Moves the ship
-    // If safeToMove is true, add 5 to position
-    // else subtract 5 from position
+
     public void move (boolean safeToMove)
     {
-       // Because safeToMove is already a boolean
-       // value, you DO NOT need to compare it to
-       // true
-       // Just use
-       // if(safeToMove)
         if (safeToMove) {
             position += 5;
         } else {
@@ -26,13 +41,11 @@ public class Battleship
         }
     }
     
-    // Returns the position of the ship
     public int getPosition()
     {
         return position;
     }
     
-    // String representation of the object
     public String toString()
     {
         return shipType + " at " + position;

@@ -1,3 +1,26 @@
+/* MIT License
+ *
+ * Copyright (c) 2021 Brighton Sikarskie
+ *  
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
 import java.util.Scanner;
 
 public class Salmon
@@ -5,20 +28,6 @@ public class Salmon
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
-        
-        // Ask user for month of year as an integer
-        
-        // if month is less than 3 (Jan or Feb) -- not spawning season
-        // else if month is less than 7 (march, april, may, june) -- spring spawning season
-        // else if month is less than 9 (july, august) -- Not spawning season
-        // else if month is less than 12 (sept, oct, nov) -- fall spawning season
-        // else (only month left is december) -- not spawning season
-        
-        
-        // Note: because of the way this code is structured,
-        // if you enter 2, every single one of these boolean
-        // statements is true.  But only the FIRST one executes!
-        // Hence, we check for less than 3 to catch jan and feb, etc
         
         int year = input.nextInt();
 

@@ -1,37 +1,50 @@
+/* MIT License
+ *
+ * Copyright (c) 2021 Brighton Sikarskie
+ *  
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
 public class Currency
 {
     private Double value;
     
-    // Constructor
     public Currency(Double startValue)
     {
         value = startValue;
     }
     
-    // Sets value to newValue
     public void setValue(Double newValue)
     {
         value = newValue;
     }
     
-    // Returns the dollar portion of value
-    // if value is 12.34, returns 12
     public Integer getDollars()
     {
         return (int)value.doubleValue();
     }
     
-    // Returns the cents portion of value
-    // as an Integer
-    // if value is 12.34, returns 34
     public Integer getCents()
     {
         return (int)(value*100%100);
     }
     
-    // Returns a String representation
-    // in the format
-    // $12.34
     public String toString()
     {
         return "$" + getDollars() + "." + getCents();

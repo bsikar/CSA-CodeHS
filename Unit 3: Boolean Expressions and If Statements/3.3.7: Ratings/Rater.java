@@ -1,20 +1,39 @@
+/* MIT License
+ *
+ * Copyright (c) 2021 Brighton Sikarskie
+ *  
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
 public class Rater
 {
-    private String name; // name of company
-    private double rating; // number rating (1 - 5)
-    private String review; // review shown with company name 
-    
+    private String name;
+    private double rating;
+    private String review;
     
     public Rater(String company, double initialRating)
     {
         name = company;
         rating = initialRating;
         review = "";
-        
     }
-    
-    // Set rating to newRating
-    // As long as it's no more than 5
+
     public void setRating(double newRating)
     {
         if (newRating <= 5) {
@@ -22,7 +41,6 @@ public class Rater
         }
     }
     
-    // Updates review line based on rating
     public void updateReview()
     {
         if (rating >= 3) {
@@ -32,16 +50,11 @@ public class Rater
         }
     }
     
-    
-    // Returns the rating of the company
     public double getRating()
     {
         return rating;
     }
     
-    // Returns a string representation of the company
-    // Uses the form
-    // name: review
     public String toString()
     {
         return name + " : " + review;

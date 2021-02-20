@@ -1,44 +1,54 @@
+/* MIT License
+ *
+ * Copyright (c) 2021 Brighton Sikarskie
+ *  
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
 import java.util.Scanner;
 
 public class OddNumbers
 {
     public static void main(String[] args)
     {
-        //Ask user to enter 2 positive integers
         Scanner input  = new Scanner(System.in);
         System.out.println("Enter 2 positive integers");
         int num1 = input.nextInt();
         int num2 = input.nextInt();
         
-        //Determine if both numbers are odd with bothOdd boolean
-        // Do NOT remove this line!
         boolean bothOdd = num1 % 2 != 0 && num2 % 2 != 0;
         
-        //ADD THE NEW LINE HERE
         boolean bothOddDeMorgan = !(num1 % 2 == 0 || num2 % 2 == 0);
-        //Print out if both numbers are odd or not both odd
-        if (bothOdd)
-        {
+        if (bothOdd) {
            System.out.println("Both numbers are odd");
-        }
-        else
-        {
+        } else {
             System.out.println("Both numbers are NOT odd.");
         }
         
-        //Print out if both numbers are odd or not both odd
-        if (bothOddDeMorgan)
-        {
+        if (bothOddDeMorgan) {
            System.out.println("Both numbers are odd with De Morgan's Laws.");
         }
-        else
-        {
+        else {
             System.out.println("Both numbers are NOT odd with DeMorgan's Laws.");
         }
         
-        //Check that both Boolean values evaluate to the same value
-        if(bothOdd == bothOddDeMorgan)
-        {
+        if (bothOdd == bothOddDeMorgan) {
             System.out.println("DeMorgan was right, again!");
         }
    }
