@@ -26,43 +26,43 @@ public class BasketballPlayer
 	private String name;
 	private String team;
 	private int totalPoints;
-    private int totalAssists;
+	private int totalAssists;
 	private int gamesPlayed;
 
-    public BasketballPlayer(String playerName, String currentTeam) 
-    {
+	public BasketballPlayer(String playerName, String currentTeam) 
+	{
 		name = playerName;
-        team = currentTeam;
+		team = currentTeam;
 		totalPoints = 0;
 		gamesPlayed = 0;
 	}
 
-    public BasketballPlayer(String playerName) 
-    {
+	public BasketballPlayer(String playerName) 
+	{
 		this(playerName, "no team");
 	}
 
 	public void addGame(int points, int assists) 
-    {
+	{
 		totalPoints += points;
-        totalAssists += assists;
+		totalAssists += assists;
 		gamesPlayed ++;
 	}
 
 	public void printPPG() 
-    {
+	{
 		System.out.print("Points per game: ");
-        System.out.println((double) totalPoints / gamesPlayed);
+		System.out.println((double) totalPoints / gamesPlayed);
 	}
 
-    public void printAPG() 
-    {
+	public void printAPG() 
+	{
 		System.out.print("Assists per game: ");
-        System.out.println((double) totalAssists / gamesPlayed);
+		System.out.println((double) totalAssists / gamesPlayed);
 	}
 
 	public String toString() 
-    {
+	{
 		return name + " averages " + ((double) totalPoints / gamesPlayed) + " points per game.";
 	}
 }
