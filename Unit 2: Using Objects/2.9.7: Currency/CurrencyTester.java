@@ -21,10 +21,8 @@
  * SOFTWARE.
  */
 
-public class CurrencyTester
-{
-    public static void main(String[] args)
-    {
+public class CurrencyTester {
+    public static void main(String[] args) {
         Currency bankRoll = new Currency(12.45);
         
         System.out.println("Value of bankroll: " + bankRoll);

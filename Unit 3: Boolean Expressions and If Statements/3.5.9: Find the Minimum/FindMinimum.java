@@ -23,10 +23,8 @@
 
 import java.util.Scanner;
 
-public class FindMinimum 
-{
-    public static void main(String[] args)
-    {
+public class FindMinimum {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the first integer: ");
         int a = input.nextInt();

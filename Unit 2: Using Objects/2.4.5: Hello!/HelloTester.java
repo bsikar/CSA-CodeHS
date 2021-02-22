@@ -23,10 +23,8 @@
 
 import java.util.Scanner;
 
-public class HelloTester
-{
-    public static void main(String[] args)
-    {
+public class HelloTester {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Hello user = new Hello(input.nextLine());
         user.english();

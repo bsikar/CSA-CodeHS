@@ -23,10 +23,8 @@
 
 import java.util.Scanner;
 
-public class Salmon
-{
-    public static void main(String[] args)
-    {
+public class Salmon {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
         int year = input.nextInt();

@@ -21,8 +21,7 @@
  * SOFTWARE.
  */
 
-public class Pizza
-{
+public class Pizza {
     int size;
     Vector<String> toppings;
     numOfPizzas;

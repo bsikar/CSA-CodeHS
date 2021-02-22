@@ -21,10 +21,8 @@
  * SOFTWARE.
  */
 
-public class StringTrace
-{
-    public static void main(String[] args)
-    {
+public class StringTrace {
+    public static void main(String[] args) {
         String str1 = null;
         String str2 = new String("Karel");
         String str3 = "Karel";
@@ -47,7 +45,6 @@ public class StringTrace
         
         //if ((str1 == str2) && (str2 == str3)) {
         //    System.out.println("str1, str2, and str3 are the same objects");
-        //    
         //}
     }
 }

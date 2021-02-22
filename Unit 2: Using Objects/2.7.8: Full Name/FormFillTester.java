@@ -21,10 +21,8 @@
  * SOFTWARE.
  */
 
-public class FormFillTester
-{
-    public static void main(String[] args)
-    {
+public class FormFillTester {
+    public static void main(String[] args) {
         FormFill filler = new FormFill("Karel", "Dog");
         filler.setAddress(123, "Cherry Lane", "4B");
         

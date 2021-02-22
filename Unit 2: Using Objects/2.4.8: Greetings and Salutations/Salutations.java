@@ -21,32 +21,26 @@
  * SOFTWARE.
  */
 
-public class Salutations
-{
+public class Salutations {
     private String name;
     
-    public Salutations(String theName) 
-    {
+    public Salutations(String theName) {
         name = theName;
     }
     
-    public void addressLetter() 
-    {
+    public void addressLetter() {
         System.out.println("Dear " + name);
     }
     
-    public void signLetter() 
-    {
+    public void signLetter() {
         System.out.println("Sincerely,\n" + name);
     }
     
-    public void addressMemo() 
-    {
+    public void addressMemo() {
         System.out.println("To whom it may concern");
     }
     
-    public void signMemo() 
-    {
+    public void signMemo() {
         System.out.println("Best,\n" + name);
     }
 }

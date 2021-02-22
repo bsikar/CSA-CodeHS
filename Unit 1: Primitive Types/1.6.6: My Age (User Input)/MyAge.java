@@ -23,10 +23,8 @@
 
 import java.util.Scanner;
 
-public class MyAge
-{
-    public static void main(String[] args)
-    {
+public class MyAge {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter your current age:");
         int age = input.nextInt();

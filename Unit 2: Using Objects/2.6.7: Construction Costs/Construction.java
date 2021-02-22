@@ -21,33 +21,26 @@
  * SOFTWARE.
  */
 
-public class Construction
-{
-    
-    private double lumber;  // price per board 
-    private double windows; // price per square inch of window
+public class Construction {
+    private double lumber;
+    private double windows;
     private double taxRate; 
    
-    
-    public Construction(double lumberPrice, double windowPrice, double taxes)
-    {
+    public Construction(double lumberPrice, double windowPrice, double taxes) {
         lumber = lumberPrice;
         windows = windowPrice;
         taxRate = taxes;
     }
     
-    public double lumberCost(int numBoards)
-    {
+    public double lumberCost(int numBoards) {
         return lumber * numBoards;   
     }
     
-    public double windowCost(int numWindows)
-    {
+    public double windowCost(int numWindows) {
         return windows * numWindows;   
     }
     
-    public double grandTotal(double total)
-    {
+    public double grandTotal(double total) {
         return total * (1 + taxRate);
     }
 }

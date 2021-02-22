@@ -23,10 +23,8 @@
 
 import java.util.Scanner;
 
-public class Citation
-{
-    public static void main(String[] args)
-    {
+public class Citation {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the author's name as 'Last name, First name': ");
         String a = input.nextLine();

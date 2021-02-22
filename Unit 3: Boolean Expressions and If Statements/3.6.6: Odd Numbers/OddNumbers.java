@@ -23,10 +23,8 @@
 
 import java.util.Scanner;
 
-public class OddNumbers
-{
-    public static void main(String[] args)
-    {
+public class OddNumbers {
+    public static void main(String[] args) {
         Scanner input  = new Scanner(System.in);
         System.out.println("Enter 2 positive integers");
         int num1 = input.nextInt();
@@ -51,5 +49,5 @@ public class OddNumbers
         if (bothOdd == bothOddDeMorgan) {
             System.out.println("DeMorgan was right, again!");
         }
-   }
+    }
 }

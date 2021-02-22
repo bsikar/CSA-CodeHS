@@ -23,10 +23,8 @@
 
 import java.util.Scanner;
 
-public class DrinkOrder
-{
-    public static void main(String[] args)
-    {
+public class DrinkOrder {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
         System.out.println("What do you want to drink? ");

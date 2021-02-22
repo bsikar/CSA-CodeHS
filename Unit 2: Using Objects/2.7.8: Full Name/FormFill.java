@@ -21,16 +21,14 @@
  * SOFTWARE.
  */
 
-public class FormFill
-{
+public class FormFill {
     private String fName;
     private String lName;
     private int streetNumber;
     private String streetName;
     private String aptNumber;
     
-    public FormFill(String firstName, String lastName)
-    {
+    public FormFill(String firstName, String lastName) {
         fName = firstName;
         lName = lastName;
         streetNumber = 0;
@@ -38,25 +36,21 @@ public class FormFill
         aptNumber = "";
     }
     
-    public void setAddress(int number, String street, String apt)
-    {
+    public void setAddress(int number, String street, String apt) {
         streetNumber = number;
         streetName = street;
         aptNumber = apt;
     }
     
-    public String fullName()
-    {
+    public String fullName() {
         return lName + ", " + fName;
     }
     
-    public String streetAddress()
-    {
+    public String streetAddress() {
         return streetNumber + " " + streetName + "\nApt " + aptNumber; 
     }
     
-    public String creditCardInfo(int creditCardNumber, int expMonth, int expYear)
-    {
+    public String creditCardInfo(int creditCardNumber, int expMonth, int expYear) {
         return "Card Number: " + creditCardNumber + "\nExpires: " + expMonth + "/" + expYear;
     }
 }

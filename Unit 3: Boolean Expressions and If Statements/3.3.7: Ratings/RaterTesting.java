@@ -21,10 +21,8 @@
  * SOFTWARE.
  */
 
-public class RaterTesting
-{
-    public static void main(String[] args)
-    {
+public class RaterTesting {
+    public static void main(String[] args) {
         // No code needed
     }
 }

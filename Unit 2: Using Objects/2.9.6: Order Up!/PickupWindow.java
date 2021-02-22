@@ -23,10 +23,8 @@
 
 import java.util.Scanner;
 
-public class PickupWindow
-{
-    public static void main(String[] args)
-    {
+public class PickupWindow {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
         String menu = "1. Hamburger\n2. Cheeseburger\n3. Veggie Burger\n4. Nachos\n5. Hot Dog\n";

@@ -23,10 +23,8 @@
 
 import java.util.Scanner;
 
-public class BotTester
-{
-    public static void main(String[] args) 
-    {
+public class BotTester {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Hello. What is your name? What's the weather like?");
         Bot bot = new Bot(input.nextLine());

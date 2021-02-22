@@ -21,8 +21,7 @@
  * SOFTWARE.
  */
 
-public class Phone
-{
+public class Phone {
     String plan;
     Vector<String> apps;
     float width;

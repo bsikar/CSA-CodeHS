@@ -23,10 +23,8 @@
 
 import java.util.Scanner;
 
-public class CastingToDouble
-{
-    public static void main(String[] args)
-    {
+public class CastingToDouble {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int int1 = input.nextInt();
         int int2 = input.nextInt();

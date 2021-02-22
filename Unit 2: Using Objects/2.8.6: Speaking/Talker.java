@@ -21,32 +21,26 @@
  * SOFTWARE.
  */
 
-public class Talker
-{
+public class Talker {
     private String text;
     
-    public Talker(String startingText)
-    {
+    public Talker(String startingText) {
         text = startingText;
     }
     
-    public String yell()
-    {
+    public String yell() {
         return text.toUpperCase();
     }
     
-    public String whisper()
-    {
+    public String whisper() {
         return text.toLowerCase();
     }
     
-    public void setText(String newText)
-    {
+    public void setText(String newText) {
         text = newText;   
     }
     
-    public String toString()
-    {
+    public String toString() {
         return "I say, \"" + text + "\"";
     }
 }

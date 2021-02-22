@@ -23,10 +23,8 @@
 
 import java.util.Scanner;
 
-public class TripleDouble 
-{
-    public static void main(String[] args)
-    {
+public class TripleDouble {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
         System.out.println("How many points did you score? ");

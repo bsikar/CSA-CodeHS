@@ -23,10 +23,8 @@
 
 import java.util.Scanner;
 
-public class Bot2Tester
-{
-    public static void main(String[] args) 
-    {
+public class Bot2Tester {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Bot2 bot = new Bot2(input.nextLine());
         bot.greeting();

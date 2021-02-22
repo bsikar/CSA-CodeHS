@@ -21,10 +21,8 @@
  * SOFTWARE.
  */
 
-public class CoinTester
-{
-    public static void main(String[] args) 
-    {
+public class CoinTester {
+    public static void main(String[] args) {
        Coins coins = new Coins(4, 3, 2, 1); // 1.41
        coins.bankValue();
        coins.addPenny(); // 1.42, 11 coins

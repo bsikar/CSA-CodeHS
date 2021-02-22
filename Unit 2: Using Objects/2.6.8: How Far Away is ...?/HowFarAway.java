@@ -23,10 +23,8 @@
 
 import java.util.Scanner;
 
-public class HowFarAway 
-{
-    public static void main(String[] args)
-    {
+public class HowFarAway {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the latitude of the starting location: ");
         Double latStart = input.nextDouble();

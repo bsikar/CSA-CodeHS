@@ -21,10 +21,8 @@
  * SOFTWARE.
  */
 
-public class RectangleTester
-{
-    public static void main(String[] args)
-    {
+public class RectangleTester {
+    public static void main(String[] args) {
         Rectangle brick = new Rectangle(1,1);
         Rectangle fencePost = new Rectangle(1, 3);
         

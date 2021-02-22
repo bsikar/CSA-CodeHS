@@ -21,19 +21,16 @@
  * SOFTWARE.
  */
 
-public class Dog 
-{
+public class Dog {
     private String breed;
     private String name;
 
-    public Dog(String theBreed, String theName)
-    {
+    public Dog(String theBreed, String theName) {
         breed = theBreed;
         name = theName;
     }
     
-    public String toString()
-    {
+    public String toString() {
         return name + " is a " + breed;
     }
 }

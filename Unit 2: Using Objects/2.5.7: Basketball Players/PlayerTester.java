@@ -21,10 +21,8 @@
  * SOFTWARE.
  */
 
-public class PlayerTester
-{
-    public static void main(String[] args) 
-    {
+public class PlayerTester {
+    public static void main(String[] args) {
         BasketballPlayer lebron = new BasketballPlayer("Lebron James", "Heat");
         BasketballPlayer jordan = new BasketballPlayer("Michael Jordan");
         lebron.addGame(26, 13);

@@ -21,29 +21,24 @@
  * SOFTWARE.
  */
 
-public class Fraction
-{
+public class Fraction {
     private int numerator;
     private int denominator;
     
-    public Fraction(int numer, int denom)
-    {
+    public Fraction(int numer, int denom) {
         numerator = numer;
         denominator = denom;
     }
     
-    public int getNumerator()
-    {
+    public int getNumerator() {
         return numerator;
     }
     
-    public int getDenominator()
-    {
+    public int getDenominator() {
         return denominator;
     }
     
-    public String toString()
-    {
+    public String toString() {
         return numerator + "/" + denominator;
     }
 }

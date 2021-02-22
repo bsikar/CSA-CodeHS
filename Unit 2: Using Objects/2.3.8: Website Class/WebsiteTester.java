@@ -21,10 +21,8 @@
  * SOFTWARE.
  */
 
-public class WebsiteTester
-{
-    public static void main(String[] args)
-    {
+public class WebsiteTester {
+    public static void main(String[] args) {
         Website web1 = new Website();
         Website web2 = new Website();
         Website web3 = new Website();

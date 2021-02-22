@@ -21,10 +21,8 @@
  * SOFTWARE.
  */
 
-public class RaterTester
-{
-    public static void main(String[] args)
-    {
+public class RaterTester {
+    public static void main(String[] args) {
         Rater jrs = new Rater("Jr Cookery", 2);
         System.out.println("Current Rating: " + jrs.getRating());
         System.out.println(jrs);

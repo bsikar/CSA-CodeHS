@@ -23,10 +23,8 @@
 
 import java.util.Scanner;
 
-public class FractionTester
-{
-    public static void main(String[] args)
-    {
+public class FractionTester {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Fraction obj1 = new Fraction(1, 2);
             

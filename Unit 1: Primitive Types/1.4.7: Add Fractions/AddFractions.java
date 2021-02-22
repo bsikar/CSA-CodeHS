@@ -21,10 +21,8 @@
  * SOFTWARE.
  */
 
-public class AddFractions 
-{
-    public static void main(String[] args)
-    {
+public class AddFractions {
+    public static void main(String[] args) {
         int a = 1, b = 2, c = 2, d = 5;
         System.out.println("The numerator of the first fraction is " + a);
         System.out.println("The denominator of the first fraction is " + b);

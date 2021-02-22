@@ -21,10 +21,8 @@
  * SOFTWARE.
  */
 
-public class BattleshipTester
-{
-    public static void main(String[] args)
-    {
+public class BattleshipTester {
+    public static void main(String[] args) {
         Battleship submarine = new Battleship("Submarine", 4);
         Battleship carrier = new Battleship("Carrier", 10);
         

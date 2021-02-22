@@ -23,10 +23,8 @@
 
 import java.util.*;
 
-public class NightOut
-{
-    public static void main(String[] args)
-    {
+public class NightOut {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("How much did dinner cost?");
         double a = input.nextDouble();

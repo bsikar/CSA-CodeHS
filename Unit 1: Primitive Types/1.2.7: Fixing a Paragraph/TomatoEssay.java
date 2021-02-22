@@ -21,10 +21,8 @@
  * SOFTWARE.
  */
 
-public class TomatoEssay
-{
-    public static void main(String[] args)
-    {
+public class TomatoEssay {
+    public static void main(String[] args) {
         System.out.println("Is a tomato a fruit or a vegetable?");
         System.out.println("While biologically speaking a tomato");
         System.out.println(" is a fruit, legally speaking it is a vegetable!");

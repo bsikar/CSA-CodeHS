@@ -21,31 +21,26 @@
  * SOFTWARE.
  */
 
-public class Rater
-{
+public class Rater {
     private String name;
     private double rating;
     
-    public Rater(String company, double initialRating)
-    {
+    public Rater(String company, double initialRating) {
         name = company;
         rating = initialRating;
     }
     
-    public void setRating(double newRating)
-    {
+    public void setRating(double newRating) {
         if (newRating <= 5) {
             rating = newRating;
         }
     }
     
-    public double getRating()
-    {
+    public double getRating() {
         return rating;
     }
     
-    public String toString()
-    {
+    public String toString() {
         if (rating < 2) {
             return "Not Recommended Company " + name;
         }

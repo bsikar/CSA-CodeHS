@@ -23,10 +23,8 @@
 
 import java.util.Scanner;
 
-public class RollerCoaster 
-{
-    public static void main(String[] args)
-    {
+public class RollerCoaster {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("How tall are you?: ");
         int height = input.nextInt();

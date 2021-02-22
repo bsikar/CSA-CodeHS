@@ -23,10 +23,8 @@
 
 import java.util.Scanner;
 
-public class Berries
-{
-    public static void main(String[] args)
-    {
+public class Berries {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
         System.out.println("Enter the initial of the berry: ");

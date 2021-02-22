@@ -23,10 +23,8 @@
 
 import java.util.Scanner;
 
-public class FilerTester
-{
-    public static void main(String[] args)
-    {
+public class FilerTester {
+    public static void main(String[] args) {
         Filer files = new Filer("hippo");
         
         String word = "zebra";

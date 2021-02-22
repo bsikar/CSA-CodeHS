@@ -21,29 +21,24 @@
  * SOFTWARE.
  */
 
-public class Extremes
-{
+public class Extremes {
     Integer min;
     Integer max;
     
-    public Extremes()
-    {
+    public Extremes() {
         min = Integer.MIN_VALUE;
         max = Integer.MAX_VALUE;
     }
     
-    public Integer maxDiff(Integer number)
-    {
+    public Integer maxDiff(Integer number) {
         return max - number;
     }
 
-    public Integer minDiff(Integer number)
-    {
+    public Integer minDiff(Integer number) {
         return min - number;
     }
     
-    public String toString()
-    {
+    public String toString() {
         return "[" + min + ", " + max + "]";   
     }
 }

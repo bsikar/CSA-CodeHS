@@ -21,10 +21,8 @@
  * SOFTWARE.
  */
 
-public class Variables 
-{
-    public static void main(String[] args)
-    {
+public class Variables {
+    public static void main(String[] args) {
         String myName = "Karel the Dog";
         int luckyNumber = 11;
         double currentTemperature = 75.3;

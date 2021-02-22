@@ -21,10 +21,8 @@
  * SOFTWARE.
  */
 
-public class TeamRanks
-{
-    public static void main(String[] args)
-    {
+public class TeamRanks {
+    public static void main(String[] args) {
         String team1 = "Alabama";
         String team2 = "Ohio State";
         String team3 = "Florida State";

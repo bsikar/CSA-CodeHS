@@ -21,8 +21,7 @@
  * SOFTWARE.
  */
 
-public class Coffee
-{
+public class Coffee {
     private int brewStrength; // on a scale of 1 to 5, 5 being the darkest
     private boolean sugar;    // has sugar (true) or does not (false)
     
@@ -35,16 +34,13 @@ public class Coffee
         milkType = "whole";
     }
     
-    public Coffee(int howStrong, boolean hasSugar, String milk)
-    {
+    public Coffee(int howStrong, boolean hasSugar, String milk) {
         brewStrength = howStrong;
         sugar = hasSugar;
         milkType = milk;
     }
     
-    public String toString()
-    {
+    public String toString() {
         return "Coffee brewed to level " + brewStrength + " with " + milkType + " milk. Sugar? " + sugar;
     }
-    
 }

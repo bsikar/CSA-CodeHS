@@ -21,19 +21,16 @@
  * SOFTWARE.
  */
 
-public class Battleship
-{
+public class Battleship {
     private String shipType;
     private int position;
     
-    public Battleship(String type, int shipPosition)
-    {
+    public Battleship(String type, int shipPosition) {
         shipType = type;
         position = shipPosition;
     }
 
-    public void move (boolean safeToMove)
-    {
+    public void move (boolean safeToMove) {
         if (safeToMove) {
             position += 5;
         } else {
@@ -41,13 +38,11 @@ public class Battleship
         }
     }
     
-    public int getPosition()
-    {
+    public int getPosition() {
         return position;
     }
     
-    public String toString()
-    {
+    public String toString() {
         return shipType + " at " + position;
     }
 }

@@ -21,10 +21,8 @@
  * SOFTWARE.
  */
 
-public class PointTester
-{
-    public static void main(String[] args)
-    {
+public class PointTester {
+    public static void main(String[] args) {
         Point p = new Point(10, 5);
         System.out.println(p);
         p.move(3, 4);
@@ -34,6 +32,5 @@ public class PointTester
         System.out.println(z);
         z.move(5, 2);
         System.out.println(z);
-
     }
 }

@@ -23,10 +23,8 @@
 
 import java.util.Scanner;
 
-public class RelativeNumbers
-{
-    public static void main(String[] args)
-    {
+public class RelativeNumbers {
+    public static void main(String[] args) {
         System.out.println("Enter two numbers: ");
         Scanner input = new Scanner(System.in);
         int a = input.nextInt();

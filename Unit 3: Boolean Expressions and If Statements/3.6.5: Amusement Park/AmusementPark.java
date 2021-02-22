@@ -23,13 +23,11 @@
 
 import java.util.Scanner;
 
-public class AmusementPark
-{
+public class AmusementPark {
     static int AGE_LIMIT = 12;
     static int HEIGHT_LIMIT = 48;
     
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
         System.out.println("Enter your age: "); 

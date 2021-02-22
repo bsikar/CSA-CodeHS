@@ -21,10 +21,8 @@
  * SOFTWARE.
  */
 
-public class RaceMain
-{
-    public static void main(String[] args)
-    {
+public class RaceMain {
+    public static void main(String[] args) {
         double distance = 2414;
         Racecar car1 = new Racecar(Math.round(Math.random())+1, "First");
         Racecar car2 = new Racecar(Math.round(Math.random())+1, "Second");

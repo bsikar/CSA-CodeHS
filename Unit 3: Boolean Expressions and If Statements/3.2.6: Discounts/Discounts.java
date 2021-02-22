@@ -23,10 +23,8 @@
 
 import java.util.Scanner;
 
-public class Discounts
-{
-    public static void main(String[] args)
-    {
+public class Discounts {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("How many hours have you been parked?");
         double cost = input.nextDouble() * 3.5;

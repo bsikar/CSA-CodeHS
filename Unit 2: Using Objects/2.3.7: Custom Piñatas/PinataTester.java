@@ -21,10 +21,8 @@
  * SOFTWARE.
  */
 
-public class PinataTester
-{
-    public static void main(String[] args)
-    {
+public class PinataTester {
+    public static void main(String[] args) {
         Pinata ella = new Pinata();
         Pinata pete = new Pinata("chocolate", "blue", "star");
         Pinata sweetie = new Pinata("sour straws");
