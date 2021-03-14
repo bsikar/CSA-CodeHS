@@ -1,0 +1,9 @@
+What was wrong with the program?
+The bug was that when a function was called it returned true when it should have returned false and it returned false when it should have returned true
+
+What expression was the programmer trying to use that gave the error? Relate your answer to De Morgan’s Laws.
+The programmer was trying to tell if 2 things returned true, but they were using the not operator in the wrong spots
+(you dont need to use it)
+
+How did you resolve the error?
+I made the code easier to read and didn't try and do funky things with the not opperator
