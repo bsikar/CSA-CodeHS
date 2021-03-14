@@ -1,0 +1,35 @@
+The instance variables that the Pizza should have are size, toppings, cost, number of pizzas, etc ...
+the instance variables repressent what they sound like
+
+
+Since I am still learning Java I will write a simple thing in rust:
+
+(Rust does not use classes like Java instead it uses impl which is similar)
+
+#[allow(dead_code)]
+
+struct Pizza {
+    size: u32,
+    toppings: Vec<String>,
+    cost: u32,
+    num_of_pizzas: u32,
+}
+
+impl Pizza {
+
+}
+
+fn main() {
+    // ...
+}
+
+
+in Java I think I would do something like:
+
+class Pizza {
+    int size;
+    Vector<String> toppings;
+    numOfPizzas;
+    
+    // ...
+}
