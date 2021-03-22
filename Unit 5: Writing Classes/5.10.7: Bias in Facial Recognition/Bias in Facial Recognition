@@ -1,0 +1,3 @@
+1. You can detect people's face including their gender, race, age, etc.
+2. Everything in the dataset matters. If you only take a bunch of photos of white people then yeah it wont work on place people and vice versa, but if you get a bunch of both then it will work. Also it isn't just the dataset, but also the camera and the quality of the camera since it is harder to pickup black rather than white (just because of how cameras work). https://www.photonics.com/Article.aspx?AID=51523
+3. The "coded gaze" is just her way of saying that code can be biased because the code gazed over certain factors.

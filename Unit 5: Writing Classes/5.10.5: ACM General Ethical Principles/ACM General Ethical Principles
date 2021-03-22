@@ -1,0 +1,5 @@
+"1.7 Honor confidentiality.
+Computing professionals are often entrusted with confidential information such as trade secrets, client data, nonpublic business strategies, financial information, research data, pre-publication scholarly articles, and patent applications. Computing professionals should protect confidentiality except in cases where it is evidence of the violation of law, of organizational regulations, or of the Code. In these cases, the nature or contents of that information should not be disclosed except to appropriate authorities. A computing professional should consider thoughtfully whether such disclosures are consistent with the Code."
+
+1. If the government or a company has secrets of any kind I as a programmer will put efforts to secure their data and prevent others from getting and leaking it.
+2. If I am working on a system such as a banking system it is my job to ensure that my users data is secure and won't get hacked.
