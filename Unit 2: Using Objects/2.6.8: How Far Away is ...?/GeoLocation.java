@@ -1,17 +1,17 @@
 /* MIT License
  *
  * Copyright (c) 2021 Brighton Sikarskie
- *  
+ *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
  * in the Software without restriction, including without limitation the rights
  * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
  * copies of the Software, and to permit persons to whom the Software is
  * furnished to do so, subject to the following conditions:
- * 
+ *
  * The above copyright notice and this permission notice shall be included in all
  * copies or substantial portions of the Software.
- * 
+ *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -25,12 +25,12 @@
  * specified using latitude and longitude.  The class includes a method for
  * computing the distance between two locations.
  *
- * This implementation is based off of the example from Stuart Reges at 
+ * This implementation is based off of the example from Stuart Reges at
  * the University of Washington.
  */
 
 public class GeoLocation {
-    public static final double RADIUS = 3963.1676;  
+    public static final double RADIUS = 3963.1676;
 
     private double latitude;
     private double longitude;

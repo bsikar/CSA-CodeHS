@@ -46,12 +46,12 @@ public class Routine {
         this.school = school;
         total += school;
     }
-    
+
     public void setSports(double sports) {
         this.sports = sports;
         total += sports;
     }
-    
+
     public void printTotal() {
         System.out.println("Weekly Totals");
         System.out.println("Sleep: " + sleep*7);

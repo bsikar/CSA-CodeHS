@@ -27,7 +27,7 @@ public class RockPaperScissors {
     private static final String USER_PLAYER = "User wins!";
     private static final String COMPUTER_PLAYER = "Computer wins!";
     private static final String TIE = "Tie";
-        
+
     public static String getWinner(String user, String computer) {
         user = user.toLowerCase();
         if (user == computer) {
@@ -47,10 +47,10 @@ public class RockPaperScissors {
         } else {
             return COMPUTER_PLAYER;
         }
-        
+
         return USER_PLAYER;
     }
-    
+
     public static String getComputerTool() {
         switch (Randomizer.nextInt(1, 3)) {
         case 1:

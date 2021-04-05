@@ -25,16 +25,16 @@ public class Exercise {
     public String title = "JavaScript Exercise";
     public String programmingLanguage = "JavaScript";
     public int points = 100;
-    
+
     public Exercise() {
     }
-    
+
     public Exercise(String title, String programmingLanguage, int points) {
         this.title = title;
         this.programmingLanguage = programmingLanguage;
         this.points =  points;
     }
-    
+
     public String getTitle() {
         return title;
     }

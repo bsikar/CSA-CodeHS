@@ -30,12 +30,12 @@ class CarModel {
         this.speed = theSpeed;
     }
 
-    public String getName() { 
+    public String getName() {
         return this.name;
     }
 
-    public int getSpeed() { 
-        return this.speed; 
+    public int getSpeed() {
+        return this.speed;
     }
 
     public String toString() {

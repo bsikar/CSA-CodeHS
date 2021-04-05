@@ -53,7 +53,7 @@ public class ActivityLog {
 
     /**
      * return private variable numMiles
-     * 
+     *
      * @return the number of miles
      */
     public double getMiles() {
@@ -62,7 +62,7 @@ public class ActivityLog {
 
     /**
      * return private variable numHours
-     * 
+     *
      * @return the number of hours
      */
     public double getHours() {

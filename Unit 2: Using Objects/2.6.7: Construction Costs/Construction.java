@@ -1,17 +1,17 @@
 /* MIT License
  *
  * Copyright (c) 2021 Brighton Sikarskie
- *  
+ *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
  * in the Software without restriction, including without limitation the rights
  * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
  * copies of the Software, and to permit persons to whom the Software is
  * furnished to do so, subject to the following conditions:
- * 
+ *
  * The above copyright notice and this permission notice shall be included in all
  * copies or substantial portions of the Software.
- * 
+ *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -24,22 +24,22 @@
 public class Construction {
     private double lumber;
     private double windows;
-    private double taxRate; 
-   
+    private double taxRate;
+
     public Construction(double lumberPrice, double windowPrice, double taxes) {
         lumber = lumberPrice;
         windows = windowPrice;
         taxRate = taxes;
     }
-    
+
     public double lumberCost(int numBoards) {
-        return lumber * numBoards;   
+        return lumber * numBoards;
     }
-    
+
     public double windowCost(int numWindows) {
-        return windows * numWindows;   
+        return windows * numWindows;
     }
-    
+
     public double grandTotal(double total) {
         return total * (1 + taxRate);
     }

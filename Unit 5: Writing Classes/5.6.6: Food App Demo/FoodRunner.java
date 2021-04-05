@@ -44,17 +44,17 @@ public class FoodRunner {
 
 class Meal {
     private Vector<Food> food;
-    
+
     public Meal() {
         food = new Vector<Food>(0);
     }
-    
+
     public void add(Food food, int n) {
         for (int i = 0; i < n; ++i) {
             this.food.add(food);
         }
     }
-    
+
     public int getTotalCalories() {
         int calories = 0;
         for (int i = 0; i < food.size(); ++i) {

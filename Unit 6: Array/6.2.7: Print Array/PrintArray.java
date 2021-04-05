@@ -26,7 +26,7 @@ public class PrintArray {
         String[] arr = new String[] {"a", "b", "c"};
         printArr(arr);
     }
-    
+
     public static void printArr(String[] arr) {
         for (String i : arr) {
             System.out.println(i);

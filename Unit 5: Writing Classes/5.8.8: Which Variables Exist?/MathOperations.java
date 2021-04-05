@@ -23,7 +23,7 @@
 
 public class MathOperations {
     private static double PI = 3.14159;
-    
+
     public static void main(String[] args) {
         int sumResult = sum(5, 10);
         int differenceResult = difference(20, 2);
@@ -31,7 +31,7 @@ public class MathOperations {
         double circumferenceResult = circleCircumference(10);
         double areaResult = circleArea(12);
     }
-    
+
     public static int sum(int one, int two) {
         System.out.println("PI: " + PI);
         System.out.println("one: " + one);
@@ -39,15 +39,15 @@ public class MathOperations {
 
         return one + two;
     }
-    
+
     public static int difference(int one, int two) {
         System.out.println("PI: " + PI);
         System.out.println("one: " + one);
         System.out.println("two: " + two);
-        
+
         return one - two;
     }
-    
+
     public static double product(double a, double b) {
         double result = a * b;
         System.out.println("PI: " + PI);
@@ -57,14 +57,14 @@ public class MathOperations {
 
         return result;
     }
-    
+
     public static double circleCircumference(int radius) {
         System.out.println("PI: " + PI);
         System.out.println("radius: " + radius);
 
         return 2 * radius * PI;
     }
-    
+
     public static double circleArea(int radius) {
         double area = PI * radius * radius;
         System.out.println("PI: " + PI);

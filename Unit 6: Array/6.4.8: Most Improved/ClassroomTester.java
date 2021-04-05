@@ -24,7 +24,7 @@
 public class ClassroomTester {
     public static void main (String[] args) {
         Classroom c = new Classroom(2);
-        
+
         Student ada = new Student("Ada", "Lovelace", 12);
         ada.addExamScore(44);
         ada.addExamScore(65);
@@ -38,7 +38,7 @@ public class ClassroomTester {
         c.addStudent(ada);
         c.addStudent(alan);
         c.printStudents();
-        
+
         Student mostImproved = c.getMostImprovedStudent();
         System.out.println("The most improved student is " + mostImproved.getName());
     }

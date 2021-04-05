@@ -28,7 +28,7 @@ public class ClassRoster {
         Student amada = new Student("Amada", "Robin", 10);
         Student mikka = new Student("Mikka", "Leads", 9);
         Student jay = new Student("Jay", "Khalil", 10);
-        
+
         Student[] classroom = {julian, larisa, amada, mikka, jay};
 
         for (Student i : classroom) {

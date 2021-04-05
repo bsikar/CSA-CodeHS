@@ -56,7 +56,7 @@ public class Rectangle {
     }
 
     public int getPerimeter() {
-        return 2 * width + 2 * height; 
+        return 2 * width + 2 * height;
     }
 
     /**
@@ -65,7 +65,7 @@ public class Rectangle {
      * Note it will print the area of the
      * Rectangle object that called it using
      * the dot operator!
-     */ 
+     */
     public void printArea() {
         int area = width * height;
         System.out.println(area);
@@ -74,7 +74,7 @@ public class Rectangle {
     /**
      * This method computes and prints the
      * perimeter of the Rectangle.
-     */ 
+     */
     public void printPerimeter() {
         int perimeter = 2 * width + 2 * height;
         System.out.println(perimeter);
@@ -82,7 +82,7 @@ public class Rectangle {
 
     /**
      * This is the toString method. It returns a String
-     * representation of the object. 
+     * representation of the object.
      */
     public String toString() {
         return "Rectangle width: " + width + ", Rectangle height: " + height;

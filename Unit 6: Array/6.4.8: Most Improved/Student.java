@@ -23,12 +23,12 @@
 
 public class Student {
     private static final int NUM_EXAMS = 4;
-    
+
     private String firstName;
     private String lastName;
     private int gradeLevel;
     private double gpa;
-    
+
     private int[] exams;
     private int numExamsTaken;
 
@@ -38,9 +38,9 @@ public class Student {
      * of the class. What that means is it takes the input
      * parameters and sets the instance variables (or fields)
      * to the proper values.
-     * 
+     *
      * Check out StudentTester.java for an example of how to use
-     * this constructor. 
+     * this constructor.
      */
     public Student(String fName, String lName, int grade) {
         firstName = fName;
@@ -49,7 +49,7 @@ public class Student {
         exams = new int[NUM_EXAMS];
         numExamsTaken = 0;
     }
-    
+
     public int getExamRange() {
         if (numExamsTaken == 0) {
             return 0;
@@ -64,23 +64,23 @@ public class Student {
                 upper = i;
             }
         }
-        
+
         return upper - lower;
     }
-    
+
     public String getName() {
         return firstName + " " + lastName;
     }
-    
+
     public void addExamScore(int score) {
         exams[numExamsTaken] = score;
         numExamsTaken++;
     }
-    
+
     public void setGPA(double theGPA) {
         gpa = theGPA;
     }
-    
+
     /**
      * This is a toString for the Student class. It returns a String
      * representation of the object, which includes the fields
