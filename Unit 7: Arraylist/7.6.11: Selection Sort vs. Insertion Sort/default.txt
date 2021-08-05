@@ -1,0 +1,12 @@
+1.
+    Reversed (10): Insertion time is faster than Selection time by 1498 nanoseconds.
+    Almost Sorted (10): Insertion time is faster than Selection time by 2018 nanoseconds.
+    Reversed (100): Selection time is faster than Insertion time by 9592 nanoseconds.
+    Almost Sorted (100): Insertion time is faster than Selection time by 108725 nanoseconds.
+2.
+    Reversed (1000): Insertion time is faster than Selection time by 883896 nanoseconds.
+    Almost Sorted (1000): Insertion time is faster than Selection time by 8941825 nanoseconds.
+3.
+    They both make sense. I would say to use insertion since it was faster more times
+    than selection was.
+
